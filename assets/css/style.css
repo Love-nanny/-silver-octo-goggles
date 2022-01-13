@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:  Arial,Helvetica,sans-serif;
+    background-color: black;
+}
+.main{
+    height: 50vh;
+    width: auto;
+    background-color: white;
+    color: black;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+}
+.nav{
+    list-style: none;
+    flex: 1;
+    align-items: flex-end;
+    font-size: 10px;
+    font-weight: 500px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(75, 75, 75);
+}
+.nav.logo{
+    flex: 6;
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav.logo img{
+    flex: 6;
+    width: 250px;
+}
+.hero-text{
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.scroll{
+    text-align: center;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top : 30px;
+}
+.arrow{
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-address{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.4);
+}
+.address-title{
+    background-color: inherit;
+    /* height: 100%; */
+    padding: 22%;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.address-text{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    opacity: .8;
+}
+.container-battlesea{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,.8);
+}
+.signup-section{
+    height: 100vh;
+    width: auto;
+    background-color: black;
+
+    margin-bottom: 150px;
+}
+.signup-title{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-top: 50px;
+}
+.newsletter{
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    margin-top: 15px;
+}
+legend{
+    color: white;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.arrangement{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+    flex-direction: row;
+}
+.legend-top{
+    align-items: flex-start;
+    margin: 20px;
+}
+.form-section{
+    color: white;
+}
+.input{
+    width: 350px;
+    height: 40px;
+    border-radius: 0;
+    border: 0;
+    margin: 10px 0 10px 0;
+    padding-left: 10px;
+    color: grey;
+}
+
+.hero-form{
+    width: auto;
+    height: 2vh;
+    padding: 50px;
+    color: rgb(192, 192, 192);
+    border: 1px solid rgb(192, 192, 192);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-size: 14px;
+
+}
+.check{
+    padding: 20px;
+}
+.btn-submit{
+    text-transform: uppercase;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: black;
+    border: 2px solid white;
+}
+.bottom-address-text{
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 50px;
+    letter-spacing: 2px;
+
+}
+.picture-grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.grid{
+    margin-top: 0px;
+}
+.grid img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+.copy{
+    color: grey;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+.last-menu{
+    color: grey;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+}
+.footer-menu-item{
+    font-size: 13px;
+    padding: 20px;
+}
